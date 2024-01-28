@@ -8,10 +8,10 @@ body {
 }
 .main {
     background-image: url(hinh1.jpg);
-    /* height: 521px; */
-    height: 850px;
+    height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
+    width: 100%;
 }
 .main-bgr{
     width: 213px;
@@ -27,7 +27,7 @@ body {
     background-color: white;
     position: absolute;
     top: 70%;
-    left: 55%;
+    left: 54%;
 }
 .main-bgr3{
     width: 184px;
@@ -79,4 +79,8 @@ body {
     width: 220.666666667px;
     height: 288.666666667px;
     left: 83%;
+}
+.main h1:hover{
+    color: green;
+    cursor: pointer;
 }

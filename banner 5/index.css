@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Lato', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 *{
     margin: 0;
@@ -10,8 +10,7 @@ body {
 
 .main {
     background-image: url(nen.jpg);
-    /* height: 521px; */
-    height: 850px;
+    height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -21,7 +20,7 @@ body {
     position: absolute;
     font-size: 78px;
     width: 35%;
-    top: 85px;
+    top: 95px;
     left: 110px;
 }
 .main h1:hover{

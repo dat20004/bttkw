@@ -1,17 +1,17 @@
-Tuấn Anh
+
 body{
-    font-family: 'ROboto',sans-serif;
+    font-family: Arial, Helvetica,sans-serif;
 }
-.right-container{
-    width: 70%;
+.main{
+    width: 100%;
     min-height: 500px;
-    margin: 0 15px;
+    margin: 0 5px;
 }
 
-.portfolio-container{
+.main-center{
     padding: auto;
 }
-.portfolio-item{
+.main-ceter-div-info{
     width: 31.25%; 
     height: 100%;
     box-shadow: 0 0 48px #04060414;
@@ -23,23 +23,32 @@ body{
     position: relative;
     object-fit: cover;
 }
-.portfolio-item img{
+.main-ceter-div-info img{
     width: 100%;
 }
-.portfolio-item h3{
+.main-ceter-div-info h3{
     font-size: 14px;
     margin: 0;
     margin: 10px 0 0 20px;
     font-weight: 500;
     
 }
-.portfolio-item a{
+.main-ceter-div-info a{
     text-decoration: none;
 }
 
 
-.portfolio-item1{
+.main-ceter-div{
     display: flex;
     flex-wrap: wrap;
     gap: 27px;
+}
+.main-ceter-div-info h3{
+    color: black;
+}
+.main-ceter-div-info h3:hover{
+    color: blue;
+}
+.main-ceter-div-info{
+    text-align: center;
 }

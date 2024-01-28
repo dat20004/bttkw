@@ -1,3 +1,9 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main{
+    height: 100vh;
+}
 .main .main-mid {
     text-align: center;
     position: relative;
@@ -65,5 +71,9 @@
 }
 .main-mid-lo p:hover{
     color: yellow;
+    cursor: pointer;
+}
+.main-center-lorem-img img:hover{
+    transform: scale(0.9);
     cursor: pointer;
 }
