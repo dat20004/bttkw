@@ -45,10 +45,14 @@ body{
 }
 .main-ceter-div-info h3{
     color: black;
+    font-size: 20px;
 }
 .main-ceter-div-info h3:hover{
     color: blue;
 }
 .main-ceter-div-info{
+    text-align: center;
+}
+.main-center{
     text-align: center;
 }
