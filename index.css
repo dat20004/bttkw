@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: auto;
+}
+/* header */
+header{
+    height: 100px;
+    width: 100%;
+    background-color: aqua;
+}
+/* main */
+.container-main{
+    width: 100%;
+    height: 1000px;
+    background-color: black;
+}
+/* footer */
+footer{
+    width: 100%;
+    height: 500px;
+    background-color: blue;
+}
