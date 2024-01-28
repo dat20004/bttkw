@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main img {
+    width: 100%;
+    height: 500px;
+}
+.main .main-mid {
+    display: flex;
+    right: 0;
+    position: absolute;
+    width: 50%;
+    margin-top: 10px;
+    gap: 10px;
+}
+.main .main-mid .main-mid-av {
+    text-align: center;
+    width: 33%;
+}
+.main .main-mid .main-mid-av i {
+    font-size: 20px;
+
+}
+.main .main-mid .main-mid-av h2 {
+    margin: 10px 0;
+}
+.main .main-info {
+    position: absolute;
+    bottom: 220px;
+    left: 35px;
+    font-size: 70px;
+    font-weight: 600;
+    margin-left: 130px;
+}
+.main .main-p {
+    position: absolute;
+    bottom: 150px;
+    left: 35px;
+    font-size: 70px;
+    margin-left: 130px;
+}
+.main-info:hover{
+    color: green;
+    cursor: pointer;
+}
+.main-mid-av h2:hover{
+    color: yellow;
+    cursor: pointer;
+}

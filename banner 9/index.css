@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.main {
+    background-image: url(banner9.jpg);
+    height: 850px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.main h{
+    color: white;
+    font-weight: 300;
+    position: absolute;
+    font-size: 65px;
+    width: 37%;
+    top: 220px;
+    left: 230px;
+    text-align: end;
+}
+.main h:hover{
+    color: green;
+    cursor: pointer;
+}

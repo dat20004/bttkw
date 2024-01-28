@@ -1,0 +1,69 @@
+.main .main-mid {
+    text-align: center;
+    position: relative;
+}
+.main .main-mid .main-mid-lo {
+    position: absolute;
+    top: 0;
+    right: 30px;
+    width: 80px;
+    height: 100px;
+    background-color: green;
+    color: #fff;
+    text-align: center;
+}
+.main .main-mid h1 {
+    color: #000;
+    font-weight: 600;
+    font-size: 30px;
+}
+.main .main-mid p {
+    font-weight: 100;
+    font-size: 25px;
+}
+.main .main-mid .main-mid-lo p {
+    border-bottom: 1px solid #fff;
+    width: 80%;
+    margin: auto;
+    padding-top: 25%;
+    padding-bottom: 5%;
+    font-size: 25px;
+}
+.main .main-center{
+    padding: 0 80px;
+    margin-top: 50px;
+}
+.main .main-center .main-center-lorem {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+.main .main-center .main-center-lorem-img {
+    width: 22%;
+    height: 300px;
+
+}
+.main .main-center .main-center-lorem-img img {
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+}
+
+.main .main-center .main-center-lorem-img .main-center-lorem-span{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;   
+    padding: 0 20px;
+}
+.main-center-lorem-span span:hover{
+    color: rgb(32, 182, 37);
+    cursor: pointer;
+}
+.main-mid h1:hover{
+    color: green;
+    cursor: pointer;
+}
+.main-mid-lo p:hover{
+    color: yellow;
+    cursor: pointer;
+}

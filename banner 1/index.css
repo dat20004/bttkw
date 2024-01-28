@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: 100%;
+}
+.main{
+    background-image: url(banner1.jpg);
+    height: 1000px;
+    width: 100%;
+    box-sizing: border-box;
+    padding-top: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.main-center{
+    width: 600px;
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.main-center p{
+    color: white;
+    font-size: 30px;
+}
+.main-center h{
+    color: white;
+    font-size: 70px;
+}
+.main-center p1{
+    color: white;
+    font-size: 50px;
+}
+.menu{
+    width: 400px;
+    height: 100px;
+    /* background-color: aquamarine; */
+    padding-left: 88px;
+    /* line-height: 20px; */
+    padding-top: 100px;
+    color: white;
+}
+.menu-hr{
+    width: 100px;
+    height: 1px;
+    background-color: white;
+}
+.menu-icon{
+    display: flex;
+    gap: 15px;
+}
+.menu-icon .btn:hover{
+    color: yellow;
+    cursor: pointer;
+}
+.menu-icon .btn1:hover{
+    color: rgb(207, 192, 192);
+    cursor: pointer;
+}
+.menu-icon .btn2:hover{
+    color: rgb(85, 186, 253);
+    cursor: pointer;
+}
